@@ -30,6 +30,7 @@ export const labels = {
     vystup: "Vystup",
     vystupModulu: "Vystup modulu",
     pct: (n: number) => `${n}%`,
+    viewPresentation: "Zobrazit prezentaciu",
   },
   en: {
     modul: "Module",
@@ -46,6 +47,7 @@ export const labels = {
     vystup: "Output",
     vystupModulu: "Module output",
     pct: (n: number) => `${n}%`,
+    viewPresentation: "View presentation",
   },
 } as const;
 

@@ -7,6 +7,7 @@ export type Lesson = {
   exercise?: string;
   note?: string;
   contentId?: string;
+  presentation?: string;
 };
 
 export type Week = {
@@ -45,6 +46,7 @@ export const modules: Module[] = [
               "Ludia ti budu klamat, ak im to umoznis. Nepytaj sa 'Paci sa ti moj napad?' Pytaj sa 'Kedy si naposledy riesil [problem]? Ako si to riesil?'",
             exercise: "Zapis 3 pravidla, ktore si si odnesla z kapitol 1-3",
             contentId: "mom-test-1",
+            presentation: "/presentation/The-Mom-Test.pdf",
           },
           {
             day: "Utorok",
@@ -56,6 +58,7 @@ export const modules: Module[] = [
             exercise:
               "Napis 5 otazok pre svoj prvy discovery rozhovor",
             contentId: "mom-test-2",
+            presentation: "/presentation/The-Mom-Test.pdf",
           },
           {
             day: "Streda",
